@@ -1,6 +1,7 @@
 # FoodBot - A Recipe Chatbot
 
 Developed by: Jaslin Ebenezer I
+
 Hosted by: Dev-0618
 
 ## Live at 
