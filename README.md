@@ -1,5 +1,8 @@
 # FoodBot - A Recipe Chatbot
 
+Developed by: Jaslin Ebenezer I
+Hosted by: Dev-0618
+
 ## Live at 
 https://dev-0618.github.io/FoodBot/
 
