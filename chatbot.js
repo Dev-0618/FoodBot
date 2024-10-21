@@ -64,12 +64,12 @@ function getHelp() {
 // Function to handle user input and responses
 function getResponse() {
     const userInput = document.getElementById('userInput').value.toLowerCase();
-    let userHtml = `<div class="user"><img src="imgs/userIcon.png" alt="user icon"><p>${userInput}</p></div>`;
+    let userHtml = `<div class="user"><img src="userIcon.png" alt="user icon"><p>${userInput}</p></div>`;
     chatbox.innerHTML += userHtml;
     
     // "help" command to list available recipes
     if (userInput === "help") {
-        let botHtml = `<div class="bot"><img src="imgs/botIcon.png" alt="bot icon"><p>${getHelp()}</p></div>`;
+        let botHtml = `<div class="bot"><img src="botIcon.png" alt="bot icon"><p>${getHelp()}</p></div>`;
         chatbox.innerHTML += botHtml;
     } else if (recipes[userInput]) {
         let botHtml = `
